@@ -1,0 +1,3155 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook locale='en_US' original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.PatternedLineMarks.true...PatternedLineMarks />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Table 3' inline='true' name='federated.08mayg10avhev119khlzq1nmbyyx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Russian Army 2024' name='excel-direct.1ki3tn41jvg72l1brpyem09b42ex'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/src/Russian Army 2024.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1ki3tn41jvg72l1brpyem09b42ex' name='Table 3' table='[&apos;Table 3$&apos;]' type='table'>
+          <columns gridOrigin='A1:E8:no:A1:E8:0' header='yes' outcome='2'>
+            <column datatype='string' name='Million tonnes' ordinal='0' />
+            <column datatype='string' name='Млн тонн' ordinal='1' />
+            <column datatype='real' name='Jan-Nov 2022' ordinal='2' />
+            <column datatype='real' name='Jan-Nov 2023' ordinal='3' />
+            <column datatype='real' name='Change in %' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1ki3tn41jvg72l1brpyem09b42ex' name='Table 3' table='[&apos;Table 3$&apos;]' type='table'>
+          <columns gridOrigin='A1:E8:no:A1:E8:0' header='yes' outcome='2'>
+            <column datatype='string' name='Million tonnes' ordinal='0' />
+            <column datatype='string' name='Млн тонн' ordinal='1' />
+            <column datatype='real' name='Jan-Nov 2022' ordinal='2' />
+            <column datatype='real' name='Jan-Nov 2023' ordinal='3' />
+            <column datatype='real' name='Change in %' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Table 3]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E8:no:A1:E8:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Million tonnes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Million tonnes]</local-name>
+            <parent-name>[Table 3]</parent-name>
+            <remote-alias>Million tonnes</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 3_5799887E723448CD922EDE8283ADB092]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Млн тонн</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Млн тонн]</local-name>
+            <parent-name>[Table 3]</parent-name>
+            <remote-alias>Млн тонн</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 3_5799887E723448CD922EDE8283ADB092]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jan-Nov 2022</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jan-Nov 2022]</local-name>
+            <parent-name>[Table 3]</parent-name>
+            <remote-alias>Jan-Nov 2022</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 3_5799887E723448CD922EDE8283ADB092]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jan-Nov 2023</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jan-Nov 2023]</local-name>
+            <parent-name>[Table 3]</parent-name>
+            <remote-alias>Jan-Nov 2023</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 3_5799887E723448CD922EDE8283ADB092]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change in %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Change in %]</local-name>
+            <parent-name>[Table 3]</parent-name>
+            <remote-alias>Change in %</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 3_5799887E723448CD922EDE8283ADB092]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='% Change' datatype='real' default-format='*+0.00%;-0.00%' name='[Calculation_2596536334995824674]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Jan-Nov 2023] - [Jan-Nov 2022]) / [Jan-Nov 2022]' />
+      </column>
+      <column datatype='real' name='[Jan-Nov 2022]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Jan-Nov 2023]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Table 3' datatype='table' name='[__tableau_internal_object_id__].[Table 3_5799887E723448CD922EDE8283ADB092]' role='measure' type='quantitative' />
+      <column caption='Млн Тонн' datatype='string' name='[Млн тонн]' role='dimension' type='nominal' />
+      <column-instance column='[Jan-Nov 2022]' derivation='Sum' name='[sum:Jan-Nov 2022:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Jan-Nov 2023]' derivation='Sum' name='[sum:Jan-Nov 2023:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Million tonnes' />
+        <field-sort-custom-order field='Млн тонн' />
+        <field-sort-custom-order field='Jan-Nov 2022' />
+        <field-sort-custom-order field='Calculation_2596536334995824674' />
+        <field-sort-custom-order field='Jan-Nov 2023' />
+        <field-sort-custom-order field='Change in %' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Table 3' id='Table 3_5799887E723448CD922EDE8283ADB092'>
+            <properties context=''>
+              <relation connection='excel-direct.1ki3tn41jvg72l1brpyem09b42ex' name='Table 3' table='[&apos;Table 3$&apos;]' type='table'>
+                <columns gridOrigin='A1:E8:no:A1:E8:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Million tonnes' ordinal='0' />
+                  <column datatype='string' name='Млн тонн' ordinal='1' />
+                  <column datatype='real' name='Jan-Nov 2022' ordinal='2' />
+                  <column datatype='real' name='Jan-Nov 2023' ordinal='3' />
+                  <column datatype='real' name='Change in %' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Table 1 (patched)' inline='true' name='federated.1tg6i8g1fuqaun131gk011d8xqjd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Russian Army 2024' name='excel-direct.1fbbuzt0ljrw8s1f1ep9w19v874a'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/src/Russian Army 2024.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1fbbuzt0ljrw8s1f1ep9w19v874a' name='Table 1 (patched)' table='[&apos;Table 1 (patched)$&apos;]' type='table'>
+          <columns gridOrigin='A1:D14:no:A1:D14:0' header='yes' outcome='6'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Speaker_en' ordinal='1' />
+            <column datatype='string' name='Speaker_ru' ordinal='2' />
+            <column datatype='integer' name='Number of Contracts' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1fbbuzt0ljrw8s1f1ep9w19v874a' name='Table 1 (patched)' table='[&apos;Table 1 (patched)$&apos;]' type='table'>
+          <columns gridOrigin='A1:D14:no:A1:D14:0' header='yes' outcome='6'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Speaker_en' ordinal='1' />
+            <column datatype='string' name='Speaker_ru' ordinal='2' />
+            <column datatype='integer' name='Number of Contracts' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Table 1 (patched)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D14:no:A1:D14:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Table 1 (patched)]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 1 (patched)_387A1E8DC8F444C398D5ACBD71989729]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Speaker_en</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Speaker_en]</local-name>
+            <parent-name>[Table 1 (patched)]</parent-name>
+            <remote-alias>Speaker_en</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 1 (patched)_387A1E8DC8F444C398D5ACBD71989729]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Speaker_ru</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Speaker_ru]</local-name>
+            <parent-name>[Table 1 (patched)]</parent-name>
+            <remote-alias>Speaker_ru</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 1 (patched)_387A1E8DC8F444C398D5ACBD71989729]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Contracts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Contracts]</local-name>
+            <parent-name>[Table 1 (patched)]</parent-name>
+            <remote-alias>Number of Contracts</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 1 (patched)_387A1E8DC8F444C398D5ACBD71989729]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Date of Beginning' datatype='date' name='[Calculation_2596536334822715392]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='date(&apos;2023-01-01&apos;)' />
+      </column>
+      <column caption='Number of Weeks' datatype='integer' name='[Calculation_2596536334822957057]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='datediff(&apos;week&apos;, [Calculation_2596536334987079713], [Date])' />
+      </column>
+      <column caption='Total Contracts Surplus' datatype='integer' name='[Calculation_2596536334824214538]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='max([Number of Contracts]) - min([Number of Contracts])' />
+      </column>
+      <column caption='Date_cont' datatype='date' name='[Calculation_2596536334827560972]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='[Date]' />
+      </column>
+      <column caption='Avg Weekly Contracts Surplus' datatype='real' name='[Calculation_2596536334829158426]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2596536334824214538] / max([Calculation_2596536334822957057])' />
+      </column>
+      <column caption='Prev Date' datatype='date' name='[Calculation_2596536334977417243]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='lookup(max([Date]), -1)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Days since Prev Date' datatype='integer' name='[Calculation_2596536334977564700]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='datediff(&apos;day&apos;, [Calculation_2596536334977417243], max([Date]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Prev Number of Contracts' datatype='integer' name='[Calculation_2596536334978928670]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='lookup(max([Number of Contracts]), -1)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Number of Contracts Weekly growth' datatype='real' name='[Calculation_2596536334979158047]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Number of Contracts Daily growth (copy)_2596536335810465828] / [Days since Prev Date (copy)_2596536334977691677]'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Min Date' datatype='date' name='[Calculation_2596536334987079713]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='{ fixed: min([Date]) }' />
+      </column>
+      <column caption='Weeks since Prev Date' datatype='real' name='[Days since Prev Date (copy)_2596536334977691677]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='round([Calculation_2596536334977564700] / 7.0, 0)'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Number of Contracts Change' datatype='integer' name='[Number of Contracts Daily growth (copy)_2596536335810465828]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='max([Number of Contracts]) - [Calculation_2596536334978928670]'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Number of Contracts Daily growth' datatype='real' name='[Number of Contracts Weekly growth (copy)_2596536334983741472]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Number of Contracts Daily growth (copy)_2596536335810465828] / [Calculation_2596536334977564700]'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='integer' name='[Number of Contracts]' role='measure' type='quantitative' />
+      <column caption='Number of Days' datatype='integer' name='[Number of Weeks (copy)_2596536334824042505]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='datediff(&apos;day&apos;, [Calculation_2596536334987079713], [Date])' />
+      </column>
+      <column caption='Speaker en' datatype='string' name='[Speaker_en]' role='dimension' type='nominal' />
+      <column caption='Speaker ru' datatype='string' name='[Speaker_ru]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Table 1 (patched)' datatype='table' name='[__tableau_internal_object_id__].[Table 1 (patched)_387A1E8DC8F444C398D5ACBD71989729]' role='measure' type='quantitative' />
+      <column-instance column='[Speaker_en]' derivation='None' name='[none:Speaker_en:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Speaker_ru]' derivation='None' name='[none:Speaker_ru:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Number of Contracts]' derivation='Sum' name='[sum:Number of Contracts:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Contracts Daily growth (copy)_2596536335810465828]' derivation='User' name='[usr:Number of Contracts Daily growth (copy)_2596536335810465828:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+        <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334978928670]' ordering-type='Rows' />
+      </column-instance>
+      <column-instance column='[Number of Contracts Weekly growth (copy)_2596536334983741472]' derivation='User' name='[usr:Number of Contracts Weekly growth (copy)_2596536334983741472:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' />
+        <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Number of Contracts Daily growth (copy)_2596536335810465828]' ordering-type='Rows' />
+        <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334977564700]' ordering-type='Rows' />
+        <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334978928670]' ordering-type='Rows' />
+        <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334977417243]' ordering-type='Rows' />
+      </column-instance>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[none:Speaker_en:nk]' type='shape'>
+            <map to=':filled/asterisk'>
+              <bucket>&quot;Shoigu&quot;</bucket>
+            </map>
+            <map to=':filled/circle'>
+              <bucket>&quot;Medvedev&quot;</bucket>
+            </map>
+            <map to=':filled/triangle'>
+              <bucket>&quot;Putin&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Number of Contracts Weekly growth (copy)_2596536334983741472:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Number of Contracts Daily growth (copy)_2596536335810465828:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536335808823331:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Speaker_en:nk]' type='palette'>
+            <map to='#007aff'>
+              <bucket>&quot;Medvedev&quot;</bucket>
+            </map>
+            <map to='#28cd41'>
+              <bucket>&quot;Shoigu&quot;</bucket>
+            </map>
+            <map to='#ff3b30'>
+              <bucket>&quot;Putin&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Speaker_ru:nk]' type='palette'>
+            <map to='#007aff'>
+              <bucket>&quot;Медведев&quot;</bucket>
+            </map>
+            <map to='#28cd41'>
+              <bucket>&quot;Шойгу&quot;</bucket>
+            </map>
+            <map to='#ff3b30'>
+              <bucket>&quot;Путин&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='Calculation_2596536334987079713' />
+        <field-sort-custom-order field='Calculation_2596536334977417243' />
+        <field-sort-custom-order field='Calculation_2596536334977564700' />
+        <field-sort-custom-order field='Days since Prev Date (copy)_2596536334977691677' />
+        <field-sort-custom-order field='Calculation_2596536334827560972' />
+        <field-sort-custom-order field='Speaker_en' />
+        <field-sort-custom-order field='Speaker_ru' />
+        <field-sort-custom-order field='Number of Contracts' />
+        <field-sort-custom-order field='Calculation_2596536334978928670' />
+        <field-sort-custom-order field='Calculation_2596536334979158047' />
+        <field-sort-custom-order field='Number of Contracts Weekly growth (copy)_2596536334983741472' />
+        <field-sort-custom-order field='Number of Contracts Daily growth (copy)_2596536335810465828' />
+        <field-sort-custom-order field='Calculation_2596536334824214538' />
+        <field-sort-custom-order field='Calculation_2596536334829158426' />
+        <field-sort-custom-order field='Calculation_2596536334822715392' />
+        <field-sort-custom-order field='Calculation_2596536334822957057' />
+        <field-sort-custom-order field='Number of Weeks (copy)_2596536334824042505' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Table 1 (patched)' id='Table 1 (patched)_387A1E8DC8F444C398D5ACBD71989729'>
+            <properties context=''>
+              <relation connection='excel-direct.1fbbuzt0ljrw8s1f1ep9w19v874a' name='Table 1 (patched)' table='[&apos;Table 1 (patched)$&apos;]' type='table'>
+                <columns gridOrigin='A1:D14:no:A1:D14:0' header='yes' outcome='6'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='string' name='Speaker_en' ordinal='1' />
+                  <column datatype='string' name='Speaker_ru' ordinal='2' />
+                  <column datatype='integer' name='Number of Contracts' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Table 2 (T_en)' inline='true' name='federated.1u9q16d0rndcal145umfj1x0befd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Russian Army 2024' name='excel-direct.080gr951124moh14umf9x1ph3wdg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/src/Russian Army 2024.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.080gr951124moh14umf9x1ph3wdg' name='Table 2 (T_en)' table='[&apos;Table 2 (T_en)$&apos;]' type='table'>
+          <columns gridOrigin='A1:G8:no:A1:G8:0' header='yes' outcome='2'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='integer' name='Ammonia, thousand tonnes' ordinal='1' />
+            <column datatype='integer' name='Oleum, sulphuric acid, thousand tonnes' ordinal='2' />
+            <column datatype='integer' name='Pulp, thousand tonnes' ordinal='3' />
+            <column datatype='integer' name='Alloyed steel, thousand tonnes' ordinal='4' />
+            <column datatype='integer' name='Semiconductor devices and their parts, thousand items' ordinal='5' />
+            <column datatype='integer' name='Electricity, million kWh' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.080gr951124moh14umf9x1ph3wdg' name='Table 2 (T_en)' table='[&apos;Table 2 (T_en)$&apos;]' type='table'>
+          <columns gridOrigin='A1:G8:no:A1:G8:0' header='yes' outcome='2'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='integer' name='Ammonia, thousand tonnes' ordinal='1' />
+            <column datatype='integer' name='Oleum, sulphuric acid, thousand tonnes' ordinal='2' />
+            <column datatype='integer' name='Pulp, thousand tonnes' ordinal='3' />
+            <column datatype='integer' name='Alloyed steel, thousand tonnes' ordinal='4' />
+            <column datatype='integer' name='Semiconductor devices and their parts, thousand items' ordinal='5' />
+            <column datatype='integer' name='Electricity, million kWh' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Table 2 (T_en)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G8:no:A1:G8:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Table 2 (T_en)]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ammonia, thousand tonnes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ammonia, thousand tonnes]</local-name>
+            <parent-name>[Table 2 (T_en)]</parent-name>
+            <remote-alias>Ammonia, thousand tonnes</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oleum, sulphuric acid, thousand tonnes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oleum, sulphuric acid, thousand tonnes]</local-name>
+            <parent-name>[Table 2 (T_en)]</parent-name>
+            <remote-alias>Oleum, sulphuric acid, thousand tonnes</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pulp, thousand tonnes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pulp, thousand tonnes]</local-name>
+            <parent-name>[Table 2 (T_en)]</parent-name>
+            <remote-alias>Pulp, thousand tonnes</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alloyed steel, thousand tonnes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alloyed steel, thousand tonnes]</local-name>
+            <parent-name>[Table 2 (T_en)]</parent-name>
+            <remote-alias>Alloyed steel, thousand tonnes</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Semiconductor devices and their parts, thousand items</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Semiconductor devices and their parts, thousand items]</local-name>
+            <parent-name>[Table 2 (T_en)]</parent-name>
+            <remote-alias>Semiconductor devices and their parts, thousand items</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electricity, million kWh</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Electricity, million kWh]</local-name>
+            <parent-name>[Table 2 (T_en)]</parent-name>
+            <remote-alias>Electricity, million kWh</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Semiconductor devices and their parts, thousand items:qk]&quot;' value='Semiconductor devices, thousand items' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Alloyed steel, thousand tonnes]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Ammonia, thousand tonnes]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Electricity, million kWh]' role='measure' type='quantitative' />
+      <column caption='Oleum (sulphuric acid), thousand tonnes' datatype='integer' name='[Oleum, sulphuric acid, thousand tonnes]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Pulp, thousand tonnes]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Semiconductor devices and their parts, thousand items]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Table 2 (T_en)' datatype='table' name='[__tableau_internal_object_id__].[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Alloyed steel, thousand tonnes]' derivation='Sum' name='[sum:Alloyed steel, thousand tonnes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Ammonia, thousand tonnes]' derivation='Sum' name='[sum:Ammonia, thousand tonnes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Electricity, million kWh]' derivation='Sum' name='[sum:Electricity, million kWh:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Oleum, sulphuric acid, thousand tonnes]' derivation='Sum' name='[sum:Oleum, sulphuric acid, thousand tonnes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pulp, thousand tonnes]' derivation='Sum' name='[sum:Pulp, thousand tonnes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Semiconductor devices and their parts, thousand items]' derivation='Sum' name='[sum:Semiconductor devices and their parts, thousand items:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Electricity, million kWh:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Pulp, thousand tonnes:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Alloyed steel, thousand tonnes:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[__tableau_internal_object_id__].[cnt:Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Oleum, sulphuric acid, thousand tonnes:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Semiconductor devices and their parts, thousand items:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Ammonia, thousand tonnes:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Table 2 (T_en)' id='Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3'>
+            <properties context=''>
+              <relation connection='excel-direct.080gr951124moh14umf9x1ph3wdg' name='Table 2 (T_en)' table='[&apos;Table 2 (T_en)$&apos;]' type='table'>
+                <columns gridOrigin='A1:G8:no:A1:G8:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='integer' name='Ammonia, thousand tonnes' ordinal='1' />
+                  <column datatype='integer' name='Oleum, sulphuric acid, thousand tonnes' ordinal='2' />
+                  <column datatype='integer' name='Pulp, thousand tonnes' ordinal='3' />
+                  <column datatype='integer' name='Alloyed steel, thousand tonnes' ordinal='4' />
+                  <column datatype='integer' name='Semiconductor devices and their parts, thousand items' ordinal='5' />
+                  <column datatype='integer' name='Electricity, million kWh' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Table 2 (T_ru)' inline='true' name='federated.01hmu5t1kwo9dv1ds0fvn1njllsd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Russian Army 2024' name='excel-direct.1hp8c7811c2tuz18zizwl1j8wvgu'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/src/Russian Army 2024.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1hp8c7811c2tuz18zizwl1j8wvgu' name='Table 2 (T_ru)' table='[&apos;Table 2 (T_ru)$&apos;]' type='table'>
+          <columns gridOrigin='A1:G8:no:A1:G8:0' header='yes' outcome='2'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='integer' name='Аммиак, тыс тонн' ordinal='1' />
+            <column datatype='integer' name='Олеум, кислота серная, тыс тонн' ordinal='2' />
+            <column datatype='integer' name='Целлюлоза, тыс тонн' ordinal='3' />
+            <column datatype='integer' name='Сталь легированная, тыс тонн' ordinal='4' />
+            <column datatype='integer' name='Приборы полупроводниковые и их части, тыс штук' ordinal='5' />
+            <column datatype='integer' name='Электроэнергия, млн кВт*ч' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1hp8c7811c2tuz18zizwl1j8wvgu' name='Table 2 (T_ru)' table='[&apos;Table 2 (T_ru)$&apos;]' type='table'>
+          <columns gridOrigin='A1:G8:no:A1:G8:0' header='yes' outcome='2'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='integer' name='Аммиак, тыс тонн' ordinal='1' />
+            <column datatype='integer' name='Олеум, кислота серная, тыс тонн' ordinal='2' />
+            <column datatype='integer' name='Целлюлоза, тыс тонн' ordinal='3' />
+            <column datatype='integer' name='Сталь легированная, тыс тонн' ordinal='4' />
+            <column datatype='integer' name='Приборы полупроводниковые и их части, тыс штук' ordinal='5' />
+            <column datatype='integer' name='Электроэнергия, млн кВт*ч' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Table 2 (T_ru)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G8:no:A1:G8:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Table 2 (T_ru)]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Аммиак, тыс тонн</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Аммиак, тыс тонн]</local-name>
+            <parent-name>[Table 2 (T_ru)]</parent-name>
+            <remote-alias>Аммиак, тыс тонн</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Олеум, кислота серная, тыс тонн</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Олеум, кислота серная, тыс тонн]</local-name>
+            <parent-name>[Table 2 (T_ru)]</parent-name>
+            <remote-alias>Олеум, кислота серная, тыс тонн</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Целлюлоза, тыс тонн</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Целлюлоза, тыс тонн]</local-name>
+            <parent-name>[Table 2 (T_ru)]</parent-name>
+            <remote-alias>Целлюлоза, тыс тонн</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Сталь легированная, тыс тонн</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Сталь легированная, тыс тонн]</local-name>
+            <parent-name>[Table 2 (T_ru)]</parent-name>
+            <remote-alias>Сталь легированная, тыс тонн</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Приборы полупроводниковые и их части, тыс штук</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Приборы полупроводниковые и их части, тыс штук]</local-name>
+            <parent-name>[Table 2 (T_ru)]</parent-name>
+            <remote-alias>Приборы полупроводниковые и их части, тыс штук</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Электроэнергия, млн кВт*ч</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Электроэнергия, млн кВт*ч]</local-name>
+            <parent-name>[Table 2 (T_ru)]</parent-name>
+            <remote-alias>Электроэнергия, млн кВт*ч</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Table 2 (T_ru)' datatype='table' name='[__tableau_internal_object_id__].[Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Аммиак, тыс тонн]' role='measure' type='quantitative' />
+      <column caption='Олеум (кислота серная), тыс тонн' datatype='integer' name='[Олеум, кислота серная, тыс тонн]' role='measure' type='quantitative' />
+      <column caption='Приборы полупроводниковые, тыс тонн' datatype='integer' name='[Приборы полупроводниковые и их части, тыс штук]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Сталь легированная, тыс тонн]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Целлюлоза, тыс тонн]' role='measure' type='quantitative' />
+      <column caption='Электроэнергия, млн кВт·ч' datatype='integer' name='[Электроэнергия, млн кВт*ч]' role='measure' type='quantitative' />
+      <column-instance column='[Аммиак, тыс тонн]' derivation='Sum' name='[sum:Аммиак, тыс тонн:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Олеум, кислота серная, тыс тонн]' derivation='Sum' name='[sum:Олеум, кислота серная, тыс тонн:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Приборы полупроводниковые и их части, тыс штук]' derivation='Sum' name='[sum:Приборы полупроводниковые и их части, тыс штук:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Сталь легированная, тыс тонн]' derivation='Sum' name='[sum:Сталь легированная, тыс тонн:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Целлюлоза, тыс тонн]' derivation='Sum' name='[sum:Целлюлоза, тыс тонн:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Электроэнергия, млн кВт*ч]' derivation='Sum' name='[sum:Электроэнергия, млн кВт*ч:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Electricity, million kWh:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Электроэнергия, млн кВт*ч:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Pulp, thousand tonnes:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Целлюлоза, тыс тонн:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Alloyed steel, thousand tonnes:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Сталь легированная, тыс тонн:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[__tableau_internal_object_id__].[cnt:Table 2 (T!en)_0BA640D215AE45AB989B9DC79DBF3AB3:qk]&quot;</bucket>
+            </map>
+            <map to='#ef8e34'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Приборы полупроводниковые и их части, тыс штук:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Oleum, sulphuric acid, thousand tonnes:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Олеум, кислота серная, тыс тонн:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Semiconductor devices and their parts, thousand items:qk]&quot;</bucket>
+            </map>
+            <map to='#f5bfd2'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Аммиак, тыс тонн:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Ammonia, thousand tonnes:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Table 2 (T_ru)' id='Table 2 (T!ru)_507908095AE2475DAF2C7D28AD8D8711'>
+            <properties context=''>
+              <relation connection='excel-direct.1hp8c7811c2tuz18zizwl1j8wvgu' name='Table 2 (T_ru)' table='[&apos;Table 2 (T_ru)$&apos;]' type='table'>
+                <columns gridOrigin='A1:G8:no:A1:G8:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='integer' name='Аммиак, тыс тонн' ordinal='1' />
+                  <column datatype='integer' name='Олеум, кислота серная, тыс тонн' ordinal='2' />
+                  <column datatype='integer' name='Целлюлоза, тыс тонн' ordinal='3' />
+                  <column datatype='integer' name='Сталь легированная, тыс тонн' ordinal='4' />
+                  <column datatype='integer' name='Приборы полупроводниковые и их части, тыс штук' ordinal='5' />
+                  <column datatype='integer' name='Электроэнергия, млн кВт*ч' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Average Weekly Growth'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 1 (patched)' name='federated.1tg6i8g1fuqaun131gk011d8xqjd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg6i8g1fuqaun131gk011d8xqjd'>
+            <column caption='Prev Date' datatype='date' name='[Calculation_2596536334977417243]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='lookup(max([Date]), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Days since Prev Date' datatype='integer' name='[Calculation_2596536334977564700]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='datediff(&apos;day&apos;, [Calculation_2596536334977417243], max([Date]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Prev Number of Contracts' datatype='integer' name='[Calculation_2596536334978928670]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='lookup(max([Number of Contracts]), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Number of Contracts Weekly growth' datatype='real' name='[Calculation_2596536334979158047]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Number of Contracts Daily growth (copy)_2596536335810465828] / [Days since Prev Date (copy)_2596536334977691677]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Weeks since Prev Date' datatype='real' name='[Days since Prev Date (copy)_2596536334977691677]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='round([Calculation_2596536334977564700] / 7.0, 0)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Number of Contracts Change' datatype='integer' name='[Number of Contracts Daily growth (copy)_2596536335810465828]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='max([Number of Contracts]) - [Calculation_2596536334978928670]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Number of Contracts]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2596536334979158047]' derivation='User' name='[usr:Calculation_2596536334979158047:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334977417243]' ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334978928670]' ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334977564700]' ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Days since Prev Date (copy)_2596536334977691677]' ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Number of Contracts Daily growth (copy)_2596536335810465828]' ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]' scope='rows' value='' />
+            <encoding attr='space' class='0' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]' field-type='quantitative' max='25000.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]' value='54' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]' value='*#,#' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='font-weight' id='refline1' value='normal' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]</run>
+                <run>&gt;&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='auto' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]</rows>
+        <cols>[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{11DAA2BF-8212-48F7-B0F7-E8FB7384A08A}' />
+    </worksheet>
+    <worksheet name='Production'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 2 (T_en)' name='federated.1u9q16d0rndcal145umfj1x0befd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u9q16d0rndcal145umfj1x0befd'>
+            <column datatype='integer' name='[Alloyed steel, thousand tonnes]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Ammonia, thousand tonnes]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Electricity, million kWh]' role='measure' type='quantitative' />
+            <column caption='Oleum (sulphuric acid), thousand tonnes' datatype='integer' name='[Oleum, sulphuric acid, thousand tonnes]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Pulp, thousand tonnes]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Semiconductor devices and their parts, thousand items]' role='measure' type='quantitative' />
+            <column-instance column='[Alloyed steel, thousand tonnes]' derivation='Sum' name='[sum:Alloyed steel, thousand tonnes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ammonia, thousand tonnes]' derivation='Sum' name='[sum:Ammonia, thousand tonnes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Electricity, million kWh]' derivation='Sum' name='[sum:Electricity, million kWh:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Oleum, sulphuric acid, thousand tonnes]' derivation='Sum' name='[sum:Oleum, sulphuric acid, thousand tonnes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pulp, thousand tonnes]' derivation='Sum' name='[sum:Pulp, thousand tonnes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Semiconductor devices and their parts, thousand items]' derivation='Sum' name='[sum:Semiconductor devices and their parts, thousand items:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year-Trunc' name='[tyr:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Alloyed steel, thousand tonnes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Ammonia, thousand tonnes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Oleum, sulphuric acid, thousand tonnes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Pulp, thousand tonnes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Semiconductor devices and their parts, thousand items:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Electricity, million kWh:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Semiconductor devices and their parts, thousand items:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Ammonia, thousand tonnes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Alloyed steel, thousand tonnes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Oleum, sulphuric acid, thousand tonnes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Pulp, thousand tonnes:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1u9q16d0rndcal145umfj1x0befd].[tyr:Date:qk]' scope='cols' value='' />
+            <format attr='title' class='0' field='[federated.1u9q16d0rndcal145umfj1x0befd].[Multiple Values]' scope='rows' value='' />
+            <format attr='title' class='0' field='[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Electricity, million kWh:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]' value='260' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1u9q16d0rndcal145umfj1x0befd].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]' />
+              <text column='[federated.1u9q16d0rndcal145umfj1x0befd].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Electricity, million kWh:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]' />
+              <text column='[federated.1u9q16d0rndcal145umfj1x0befd].[sum:Electricity, million kWh:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1u9q16d0rndcal145umfj1x0befd].[sum:Electricity, million kWh:qk] + [federated.1u9q16d0rndcal145umfj1x0befd].[Multiple Values])</rows>
+        <cols>[federated.1u9q16d0rndcal145umfj1x0befd].[tyr:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{5104A92F-DF1E-49D9-BADC-93CEC9A43F10}' />
+    </worksheet>
+    <worksheet name='Shipment'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 3' name='federated.08mayg10avhev119khlzq1nmbyyx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08mayg10avhev119khlzq1nmbyyx'>
+            <column caption='% Change' datatype='real' default-format='*+0.00%;-0.00%' name='[Calculation_2596536334995824674]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Jan-Nov 2023] - [Jan-Nov 2022]) / [Jan-Nov 2022]' />
+            </column>
+            <column datatype='real' name='[Change in %]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Jan-Nov 2022]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Jan-Nov 2023]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Million tonnes]' role='dimension' type='nominal' />
+            <column-instance column='[Million tonnes]' derivation='None' name='[none:Million tonnes:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2596536334995824674]' derivation='Sum' name='[sum:Calculation_2596536334995824674:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Change in %]' derivation='Sum' name='[sum:Change in %:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Jan-Nov 2022]' derivation='Sum' name='[sum:Jan-Nov 2022:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Jan-Nov 2023]' derivation='Sum' name='[sum:Jan-Nov 2023:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <manual-sort column='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Chemicals and soda&quot;</bucket>
+              <bucket>&quot;Industrial raw materials&quot;</bucket>
+              <bucket>&quot;Scrap ferrous metals&quot;</bucket>
+              <bucket>&quot;Ferrous metals&quot;</bucket>
+              <bucket>&quot;Non-ferrous ore and sulphur ore&quot;</bucket>
+              <bucket>&quot;Iron ore and manganese ore&quot;</bucket>
+              <bucket>&quot;Other&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-align' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='center' />
+            <format attr='vertical-align' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='center' />
+            <format attr='text-orientation' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='0' />
+            <format attr='wrap' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='on' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='112' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' value='false' />
+            <format attr='text-align' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='center' />
+            <format attr='vertical-align' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='center' />
+            <format attr='wrap' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='on' />
+            <format attr='text-orientation' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk]' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' value='120' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' />
+              <text column='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' />
+              <text column='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]' />
+              <text column='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Calculation_2596536334995824674:qk]' />
+              <text column='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Change in %:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]</run>
+                <run>&gt; (&lt;</run>
+                <run>[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Calculation_2596536334995824674:qk]</run>
+                <run>&gt;)</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.08mayg10avhev119khlzq1nmbyyx].[none:Million tonnes:nk] / [federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names])</rows>
+        <cols>([federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk] + [federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk])</cols>
+      </table>
+      <simple-id uuid='{6ADB611D-235E-4D49-8467-BA40598AB8B6}' />
+    </worksheet>
+    <worksheet name='Table 1 Text'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 1 (patched)' name='federated.1tg6i8g1fuqaun131gk011d8xqjd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg6i8g1fuqaun131gk011d8xqjd'>
+            <column caption='Number of Weeks' datatype='integer' name='[Calculation_2596536334822957057]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='datediff(&apos;week&apos;, [Calculation_2596536334987079713], [Date])' />
+            </column>
+            <column caption='Total Contracts Surplus' datatype='integer' name='[Calculation_2596536334824214538]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='max([Number of Contracts]) - min([Number of Contracts])' />
+            </column>
+            <column caption='Avg Weekly Contracts Surplus' datatype='real' name='[Calculation_2596536334829158426]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2596536334824214538] / max([Calculation_2596536334822957057])' />
+            </column>
+            <column caption='Min Date' datatype='date' name='[Calculation_2596536334987079713]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='{ fixed: min([Date]) }' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Number of Contracts]' role='measure' type='quantitative' />
+            <column caption='Number of Days' datatype='integer' name='[Number of Weeks (copy)_2596536334824042505]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='datediff(&apos;day&apos;, [Calculation_2596536334987079713], [Date])' />
+            </column>
+            <column-instance column='[Calculation_2596536334822957057]' derivation='Max' name='[max:Calculation_2596536334822957057:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Max' name='[max:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Contracts]' derivation='Max' name='[max:Number of Contracts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Weeks (copy)_2596536334824042505]' derivation='Max' name='[max:Number of Weeks (copy)_2596536334824042505:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Min' name='[min:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Contracts]' derivation='Min' name='[min:Number of Contracts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2596536334824214538]' derivation='User' name='[usr:Calculation_2596536334824214538:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2596536334829158426]' derivation='User' name='[usr:Calculation_2596536334829158426:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='583' />
+            <format attr='height' value='57' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Date:ok]' value='*mmm dd' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Date:ok]' value='*mmmm dd' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334829158426:qk]' value='*#,#0' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Date:ok]' value='L' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334829158426:qk]' value='N' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+            <format attr='background-color' data-class='subtotal' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334824214538:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Number of Weeks (copy)_2596536334824042505:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334829158426:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Calculation_2596536334822957057:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Number of Contracts:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Number of Contracts:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Date:ok]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Date:ok]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0' fontsize='10'>From </run>
+                <run bold='true' fontalignment='0' fontcolor='#007aff' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Date:ok]>]]></run>
+                <run fontalignment='0' fontsize='10'> to </run>
+                <run bold='true' fontalignment='0' fontcolor='#28cd41' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Date:ok]>]]></run>
+                <run bold='true' fontalignment='0' fontsize='10'>Æ </run>
+                <run fontalignment='0' fontsize='10'>(</run>
+                <run bold='true' fontalignment='0' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Calculation_2596536334822957057:qk]> weeks]]></run>
+                <run fontalignment='0' fontsize='10'>) the Russian Armed Forces allegedly grew</run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run fontalignment='0' fontsize='10'>from</run>
+                <run fontalignment='0' fontcolor='#007aff' fontsize='10'>Æ </run>
+                <run bold='true' fontalignment='0' fontcolor='#007aff' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Number of Contracts:qk]>]]></run>
+                <run bold='true' fontalignment='0' fontsize='10'>Æ </run>
+                <run fontalignment='0' fontsize='10'>to </run>
+                <run bold='true' fontalignment='0' fontcolor='#28cd41' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Number of Contracts:qk]>]]></run>
+                <run fontalignment='0' fontsize='10'> (by </run>
+                <run bold='true' fontalignment='0' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334824214538:qk]> contracts]]></run>
+                <run fontalignment='0' fontsize='10'> total; </run>
+                <run bold='true' fontalignment='0' fontcolor='#4e79a7' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334829158426:qk]>]]></run>
+                <run fontalignment='0' fontcolor='#4e79a7' fontsize='10'>Æ </run>
+                <run bold='true' fontalignment='0' fontcolor='#4e79a7' fontsize='10'>contracts</run>
+                <run fontalignment='0' fontsize='10'> per week on average).</run>
+                <run fontalignment='0'>Æ&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{33D3CE3B-6D93-4F82-9439-627A7691A32B}' />
+    </worksheet>
+    <worksheet name='Total Number of Contracts'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 1 (patched)' name='federated.1tg6i8g1fuqaun131gk011d8xqjd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg6i8g1fuqaun131gk011d8xqjd'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Number of Contracts]' role='measure' type='quantitative' />
+            <column caption='Speaker en' datatype='string' name='[Speaker_en]' role='dimension' type='nominal' />
+            <column-instance column='[Speaker_en]' derivation='None' name='[none:Speaker_en:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Contracts]' derivation='Sum' name='[sum:Number of Contracts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='1' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' scope='rows' value='' />
+            <encoding attr='space' class='1' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' field-type='quantitative' fold='true' max='518884' min='1000' range-type='fixed' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' scope='rows' value='true' />
+            <format attr='title' class='0' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' scope='rows' value='' />
+            <format attr='display' class='1' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]' value='58' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]' value='true' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_en:nk]' value='110' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_en:nk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' />
+              <lod column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_en:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='0.71364641189575195' />
+                <format attr='shape' value=':filled/diamond' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk] + [federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk])</rows>
+        <cols>[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{71022018-2D4A-4D45-A196-190AAE1220B5}' />
+    </worksheet>
+    <worksheet name='_'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B8784C94-000E-4A49-A2F2-264E5F1B7A53}' />
+    </worksheet>
+    <worksheet name='Итоговое Число Контрактов'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 1 (patched)' name='federated.1tg6i8g1fuqaun131gk011d8xqjd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg6i8g1fuqaun131gk011d8xqjd'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Number of Contracts]' role='measure' type='quantitative' />
+            <column caption='Speaker ru' datatype='string' name='[Speaker_ru]' role='dimension' type='nominal' />
+            <column-instance column='[Speaker_ru]' derivation='None' name='[none:Speaker_ru:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Contracts]' derivation='Sum' name='[sum:Number of Contracts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='1' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' scope='rows' value='' />
+            <encoding attr='space' class='1' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' field-type='quantitative' fold='true' max='518884' min='1000' range-type='fixed' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' scope='rows' value='true' />
+            <format attr='title' class='0' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' scope='rows' value='' />
+            <format attr='display' class='1' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]' value='58' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]' value='true' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_ru:nk]' value='100' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_ru:nk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]' />
+              <lod column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_ru:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='0.71364641189575195' />
+                <format attr='shape' value=':filled/diamond' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk] + [federated.1tg6i8g1fuqaun131gk011d8xqjd].[sum:Number of Contracts:qk])</rows>
+        <cols>[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{0D396514-CF5D-4AE2-A61A-E8E9FB3E39D6}' />
+    </worksheet>
+    <worksheet name='Перевозки'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 3' name='federated.08mayg10avhev119khlzq1nmbyyx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08mayg10avhev119khlzq1nmbyyx'>
+            <column caption='% Change' datatype='real' default-format='*+0.00%;-0.00%' name='[Calculation_2596536334995824674]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Jan-Nov 2023] - [Jan-Nov 2022]) / [Jan-Nov 2022]' />
+            </column>
+            <column datatype='real' name='[Jan-Nov 2022]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Jan-Nov 2023]' role='measure' type='quantitative' />
+            <column-instance column='[Млн тонн]' derivation='None' name='[none:Млн тонн:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2596536334995824674]' derivation='Sum' name='[sum:Calculation_2596536334995824674:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Jan-Nov 2022]' derivation='Sum' name='[sum:Jan-Nov 2022:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Jan-Nov 2023]' derivation='Sum' name='[sum:Jan-Nov 2023:qk]' pivot='key' type='quantitative' />
+            <column caption='Млн Тонн' datatype='string' name='[Млн тонн]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <manual-sort column='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Млн тонн:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Химикаты и сода&quot;</bucket>
+              <bucket>&quot;Промышленное сырье&quot;</bucket>
+              <bucket>&quot;Лом черных металлов&quot;</bucket>
+              <bucket>&quot;Черные металлы&quot;</bucket>
+              <bucket>&quot;Руда цветная и серное сырье&quot;</bucket>
+              <bucket>&quot;Руда железная и марганцевая&quot;</bucket>
+              <bucket>&quot;Остальное&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Млн тонн:nk]' value='116' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' value='false' />
+            <format attr='text-align' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Млн тонн:nk]' value='center' />
+            <format attr='vertical-align' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Млн тонн:nk]' value='center' />
+            <format attr='text-orientation' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Млн тонн:nk]' value='0' />
+            <format attr='wrap' field='[federated.08mayg10avhev119khlzq1nmbyyx].[none:Млн тонн:nk]' value='on' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' />
+              <text column='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' />
+              <text column='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]' />
+              <text column='[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Calculation_2596536334995824674:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk]</run>
+                <run>&gt; (&lt;</run>
+                <run>[federated.08mayg10avhev119khlzq1nmbyyx].[sum:Calculation_2596536334995824674:qk]</run>
+                <run>&gt;)</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.08mayg10avhev119khlzq1nmbyyx].[none:Млн тонн:nk] / [federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names])</rows>
+        <cols>([federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2022:qk] + [federated.08mayg10avhev119khlzq1nmbyyx].[sum:Jan-Nov 2023:qk])</cols>
+      </table>
+      <simple-id uuid='{76C7DD08-916D-4532-8FFA-A1DA374A5351}' />
+    </worksheet>
+    <worksheet name='Производство'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 2 (T_ru)' name='federated.01hmu5t1kwo9dv1ds0fvn1njllsd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.01hmu5t1kwo9dv1ds0fvn1njllsd'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column-instance column='[Аммиак, тыс тонн]' derivation='Sum' name='[sum:Аммиак, тыс тонн:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Олеум, кислота серная, тыс тонн]' derivation='Sum' name='[sum:Олеум, кислота серная, тыс тонн:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Приборы полупроводниковые и их части, тыс штук]' derivation='Sum' name='[sum:Приборы полупроводниковые и их части, тыс штук:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Сталь легированная, тыс тонн]' derivation='Sum' name='[sum:Сталь легированная, тыс тонн:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Целлюлоза, тыс тонн]' derivation='Sum' name='[sum:Целлюлоза, тыс тонн:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Электроэнергия, млн кВт*ч]' derivation='Sum' name='[sum:Электроэнергия, млн кВт*ч:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year-Trunc' name='[tyr:Date:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[Аммиак, тыс тонн]' role='measure' type='quantitative' />
+            <column caption='Олеум (кислота серная), тыс тонн' datatype='integer' name='[Олеум, кислота серная, тыс тонн]' role='measure' type='quantitative' />
+            <column caption='Приборы полупроводниковые, тыс тонн' datatype='integer' name='[Приборы полупроводниковые и их части, тыс штук]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Сталь легированная, тыс тонн]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Целлюлоза, тыс тонн]' role='measure' type='quantitative' />
+            <column caption='Электроэнергия, млн кВт·ч' datatype='integer' name='[Электроэнергия, млн кВт*ч]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Сталь легированная, тыс тонн:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Аммиак, тыс тонн:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Олеум, кислота серная, тыс тонн:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Целлюлоза, тыс тонн:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Приборы полупроводниковые и их части, тыс штук:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Электроэнергия, млн кВт*ч:qk]&quot;</bucket>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Приборы полупроводниковые и их части, тыс штук:qk]&quot;</bucket>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Аммиак, тыс тонн:qk]&quot;</bucket>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Сталь легированная, тыс тонн:qk]&quot;</bucket>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Олеум, кислота серная, тыс тонн:qk]&quot;</bucket>
+              <bucket>&quot;[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Целлюлоза, тыс тонн:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[tyr:Date:qk]' scope='cols' value='' />
+            <format attr='title' class='0' field='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[Multiple Values]' scope='rows' value='' />
+            <format attr='title' class='0' field='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Электроэнергия, млн кВт*ч:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]' value='260' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]' />
+              <text column='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Электроэнергия, млн кВт*ч:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]' />
+              <text column='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Электроэнергия, млн кВт*ч:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[sum:Электроэнергия, млн кВт*ч:qk] + [federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[Multiple Values])</rows>
+        <cols>[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[tyr:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{EE7CA562-F590-46A0-9A47-1069F7917D40}' />
+    </worksheet>
+    <worksheet name='Средний Недельный Рост'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 1 (patched)' name='federated.1tg6i8g1fuqaun131gk011d8xqjd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg6i8g1fuqaun131gk011d8xqjd'>
+            <column caption='Prev Date' datatype='date' name='[Calculation_2596536334977417243]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='lookup(max([Date]), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Days since Prev Date' datatype='integer' name='[Calculation_2596536334977564700]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='datediff(&apos;day&apos;, [Calculation_2596536334977417243], max([Date]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Prev Number of Contracts' datatype='integer' name='[Calculation_2596536334978928670]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='lookup(max([Number of Contracts]), -1)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Number of Contracts Weekly growth' datatype='real' name='[Calculation_2596536334979158047]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Number of Contracts Daily growth (copy)_2596536335810465828] / [Days since Prev Date (copy)_2596536334977691677]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Weeks since Prev Date' datatype='real' name='[Days since Prev Date (copy)_2596536334977691677]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='round([Calculation_2596536334977564700] / 7.0, 0)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Number of Contracts Change' datatype='integer' name='[Number of Contracts Daily growth (copy)_2596536335810465828]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='max([Number of Contracts]) - [Calculation_2596536334978928670]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='integer' name='[Number of Contracts]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2596536334979158047]' derivation='User' name='[usr:Calculation_2596536334979158047:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334977417243]' ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334978928670]' ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Calculation_2596536334977564700]' ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Days since Prev Date (copy)_2596536334977691677]' ordering-type='Rows' />
+              <table-calc field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[Number of Contracts Daily growth (copy)_2596536335810465828]' ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]' scope='rows' value='' />
+            <encoding attr='space' class='0' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]' field-type='quantitative' max='25000.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]' value='54' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]' value='*#,#' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='font-weight' id='refline1' value='normal' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]</run>
+                <run>&gt;&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='auto' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334979158047:qk:1]</rows>
+        <cols>[federated.1tg6i8g1fuqaun131gk011d8xqjd].[tdy:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{90E49F86-2C5F-49D6-8E7C-42B63CDDF952}' />
+    </worksheet>
+    <worksheet name='Таблица 1 Текст'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table 1 (patched)' name='federated.1tg6i8g1fuqaun131gk011d8xqjd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tg6i8g1fuqaun131gk011d8xqjd'>
+            <column caption='Number of Weeks' datatype='integer' name='[Calculation_2596536334822957057]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='datediff(&apos;week&apos;, [Calculation_2596536334987079713], [Date])' />
+            </column>
+            <column caption='Total Contracts Surplus' datatype='integer' name='[Calculation_2596536334824214538]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='max([Number of Contracts]) - min([Number of Contracts])' />
+            </column>
+            <column caption='Avg Weekly Contracts Surplus' datatype='real' name='[Calculation_2596536334829158426]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_2596536334824214538] / max([Calculation_2596536334822957057])' />
+            </column>
+            <column caption='Min Date' datatype='date' name='[Calculation_2596536334987079713]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='{ fixed: min([Date]) }' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Number of Contracts]' role='measure' type='quantitative' />
+            <column caption='Number of Days' datatype='integer' name='[Number of Weeks (copy)_2596536334824042505]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='datediff(&apos;day&apos;, [Calculation_2596536334987079713], [Date])' />
+            </column>
+            <column-instance column='[Calculation_2596536334822957057]' derivation='Max' name='[max:Calculation_2596536334822957057:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Max' name='[max:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Contracts]' derivation='Max' name='[max:Number of Contracts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Weeks (copy)_2596536334824042505]' derivation='Max' name='[max:Number of Weeks (copy)_2596536334824042505:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Min' name='[min:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Contracts]' derivation='Min' name='[min:Number of Contracts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2596536334824214538]' derivation='User' name='[usr:Calculation_2596536334824214538:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2596536334829158426]' derivation='User' name='[usr:Calculation_2596536334829158426:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='639' />
+            <format attr='height' value='57' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334829158426:qk]' value='*#,#0' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Date:ok]' value='*dd' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Date:ok]' value='*dd' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Date:ok]' value='L' />
+            <format attr='text-format' field='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334829158426:qk]' value='N' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='subtotal' value='0' />
+            <format attr='border-style' data-class='subtotal' value='none' />
+            <format attr='background-color' data-class='subtotal' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334824214538:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Number of Weeks (copy)_2596536334824042505:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334829158426:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Calculation_2596536334822957057:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Number of Contracts:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Number of Contracts:qk]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Date:ok]' />
+              <text column='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Date:ok]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0' fontsize='10'>С </run>
+                <run bold='true' fontalignment='0' fontcolor='#007aff' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Date:ok]> мая]]></run>
+                <run fontalignment='0' fontsize='10'> по </run>
+                <run bold='true' fontalignment='0' fontcolor='#28cd41' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Date:ok]> декабря]]></run>
+                <run bold='true' fontalignment='0' fontsize='10'>Æ </run>
+                <run fontalignment='0' fontsize='10'>(</run>
+                <run bold='true' fontalignment='0' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Calculation_2596536334822957057:qk]> неделя]]></run>
+                <run fontalignment='0' fontsize='10'>) заявленная численность ВС РФ возросла</run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run fontalignment='0' fontsize='10'>с</run>
+                <run fontalignment='0' fontcolor='#007aff' fontsize='10'>Æ </run>
+                <run bold='true' fontalignment='0' fontcolor='#007aff' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[min:Number of Contracts:qk]>]]></run>
+                <run bold='true' fontalignment='0' fontsize='10'>Æ </run>
+                <run fontalignment='0' fontsize='10'>до </run>
+                <run bold='true' fontalignment='0' fontcolor='#28cd41' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[max:Number of Contracts:qk]>]]></run>
+                <run fontalignment='0' fontsize='10'> (итого на </run>
+                <run bold='true' fontalignment='0' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334824214538:qk]> контрактников]]></run>
+                <run fontalignment='0' fontsize='10'>; в среднем </run>
+                <run bold='true' fontalignment='0' fontcolor='#4e79a7' fontsize='10'><![CDATA[<[federated.1tg6i8g1fuqaun131gk011d8xqjd].[usr:Calculation_2596536334829158426:qk]> контрактников]]></run>
+                <run fontalignment='0' fontsize='10'> в неделю).</run>
+                <run fontalignment='0'>Æ&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{84CDF721-A282-4B6D-A329-9C2B65E0C7D9}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Table 1'>
+      <style />
+      <size maxheight='700' maxwidth='1000' minheight='700' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97714' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1143'>
+            <zone h='97714' id='5' type-v2='layout-basic' w='98400' x='800' y='1143'>
+              <zone h='97714' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1143'>
+                <zone fixed-size='474' h='68857' id='3' is-fixed='true' name='Total Number of Contracts' w='98400' x='800' y='1143'>
+                  <layout-cache minheight='183' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='28857' id='11' name='Average Weekly Growth' w='98400' x='800' y='70000'>
+                  <layout-cache minheight='182' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='3714' id='8' leg-item-layout='horz' name='Total Number of Contracts' pane-specification-id='1' param='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_en:nk]' show-title='false' type-v2='color' w='37100' x='27100' y='3143' />
+        <zone h='8429' id='16' name='Table 1 Text' show-title='false' w='58700' x='5500' y='10571'>
+          <layout-cache type-h='fixed' type-w='fixed' />
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='46' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='45' param='vert' type-v2='layout-flow' w='98400' x='800' y='1143'>
+                <zone fixed-size='280' h='68857' id='3' is-fixed='true' name='Total Number of Contracts' w='98400' x='800' y='1143'>
+                  <layout-cache minheight='183' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3714' id='8' leg-item-layout='horz' name='Total Number of Contracts' pane-specification-id='1' param='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_en:nk]' show-title='false' type-v2='color' w='37100' x='27100' y='3143'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='59' h='8429' id='16' is-fixed='true' name='Table 1 Text' show-title='false' w='58700' x='5500' y='10571'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='194' h='28857' id='11' is-fixed='true' name='Average Weekly Growth' w='98400' x='800' y='70000'>
+                  <layout-cache minheight='182' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0758EB65-EAEB-4AFA-B31E-E2073BD7CF07}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Table 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Production' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='7375' id='8' leg-item-layout='grid' name='Production' pane-specification-id='2' param='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]' show-title='false' type-v2='color' w='80600' x='14200' y='48250' />
+        <zone forceUpdate='true' h='7750' id='9' type-v2='text' w='92800' x='5700' y='35125'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>All </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Production </run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>is fairly stable: the only notable fluctuations are found in </run>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='10'>Electricity</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'> and </run>
+            <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='10'>Semiconductors</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='32' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Production' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7375' id='8' leg-item-layout='grid' name='Production' pane-specification-id='2' param='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]' show-title='false' type-v2='color' w='80600' x='14200' y='48250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='7750' id='9' type-v2='text' w='92800' x='5700' y='35125'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>All </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Production </run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>is fairly stable: the only notable fluctuations are found in </run>
+                    <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='10'>Electricity</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'> and </run>
+                    <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='10'>Semiconductors</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{994F16AF-D636-428B-9EE4-BEEC5DD6AEFA}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Table 3'>
+      <style />
+      <size maxheight='350' maxwidth='1000' minheight='350' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='95428' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='2286'>
+            <zone h='95428' id='5' type-v2='layout-basic' w='98400' x='800' y='2286'>
+              <zone h='95428' id='3' name='Shipment' w='98400' x='800' y='2286'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='6571' id='8' leg-item-layout='horz' name='Shipment' pane-specification-id='1' param='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' show-title='false' type-v2='color' w='24700' x='12100' y='6286' />
+        <zone forceUpdate='true' h='11143' id='11' type-v2='text' w='32100' x='66500' y='38286'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Shipment</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'> is also fairly stable: all </run>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='10'>2022</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Æ </run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>and </run>
+            <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='10'>2023</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Æ </run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>differences are </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>below 6%</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='95428' id='37' param='vert' type-v2='layout-flow' w='98400' x='800' y='2286'>
+                <zone fixed-size='280' h='95428' id='3' is-fixed='true' name='Shipment' w='98400' x='800' y='2286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6571' id='8' leg-item-layout='horz' name='Shipment' pane-specification-id='1' param='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' show-title='false' type-v2='color' w='24700' x='12100' y='6286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11143' id='11' type-v2='text' w='32100' x='66500' y='38286'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Shipment</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'> is also fairly stable: all </run>
+                    <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='10'>2022</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Æ </run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>and </run>
+                    <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='10'>2023</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Æ </run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>differences are </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>below 6%</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{83A85264-D0F4-4274-A700-93BFD0A36B89}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Таблица 1'>
+      <style />
+      <size maxheight='700' maxwidth='1000' minheight='700' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97714' id='29' param='horz' type-v2='layout-flow' w='98400' x='800' y='1143'>
+            <zone h='97714' id='5' type-v2='layout-basic' w='98400' x='800' y='1143'>
+              <zone h='97714' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1143'>
+                <zone fixed-size='474' h='68857' id='25' is-fixed='true' name='Итоговое Число Контрактов' w='98400' x='800' y='1143'>
+                  <layout-cache minheight='183' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='28857' id='26' name='Средний Недельный Рост' w='98400' x='800' y='70000'>
+                  <layout-cache minheight='182' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='8286' id='27' name='Таблица 1 Текст' show-title='false' w='64200' x='5500' y='10571'>
+          <layout-cache type-h='fixed' type-w='fixed' />
+        </zone>
+        <zone h='5000' id='30' leg-item-layout='horz' name='Итоговое Число Контрактов' pane-specification-id='1' param='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_ru:nk]' show-title='false' type-v2='color' w='38000' x='29800' y='3143' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='46' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='45' param='vert' type-v2='layout-flow' w='98400' x='800' y='1143'>
+                <zone fixed-size='280' h='68857' id='25' is-fixed='true' name='Итоговое Число Контрактов' w='98400' x='800' y='1143'>
+                  <layout-cache minheight='183' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5000' id='30' leg-item-layout='horz' name='Итоговое Число Контрактов' pane-specification-id='1' param='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_ru:nk]' show-title='false' type-v2='color' w='38000' x='29800' y='3143'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='58' h='8286' id='27' is-fixed='true' name='Таблица 1 Текст' show-title='false' w='64200' x='5500' y='10571'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='194' h='28857' id='26' is-fixed='true' name='Средний Недельный Рост' w='98400' x='800' y='70000'>
+                  <layout-cache minheight='182' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AEA00B90-4D46-457E-8303-FED82201092D}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Таблица 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='22' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='98000' id='20' name='Производство' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='7750' id='9' type-v2='text' w='92800' x='5700' y='35125'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Производство </run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>чрезвычайно стабильно: колебания заметны только у </run>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='10'>Электроэнергии</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'> и </run>
+            <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='10'>Полупроводников</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>.</run>
+          </formatted-text>
+        </zone>
+        <zone h='7375' id='23' leg-item-layout='grid' name='Производство' pane-specification-id='2' param='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]' show-title='false' type-v2='color' w='80600' x='14200' y='48250' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='36' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='20' is-fixed='true' name='Производство' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7375' id='23' leg-item-layout='grid' name='Производство' pane-specification-id='2' param='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]' show-title='false' type-v2='color' w='80600' x='14200' y='48250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='7750' id='9' type-v2='text' w='92800' x='5700' y='35125'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Производство </run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>чрезвычайно стабильно: колебания заметны только у </run>
+                    <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='10'>Электроэнергии</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'> и </run>
+                    <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='10'>Полупроводников</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{28ACDA2D-3DC1-45ED-987A-6C2C0442980C}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Таблица 3'>
+      <style />
+      <size maxheight='350' maxwidth='1000' minheight='350' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='95428' id='19' param='horz' type-v2='layout-flow' w='98400' x='800' y='2286'>
+            <zone h='95428' id='17' type-v2='layout-basic' w='98400' x='800' y='2286'>
+              <zone h='95428' id='16' name='Перевозки' w='98400' x='800' y='2286'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='11143' id='11' type-v2='text' w='33400' x='65700' y='38286'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Перевозки</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'> также стабильны: разница </run>
+            <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='10'>2022</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Æ </run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>и </run>
+            <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='10'>2023</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Æ </run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>по всем показателям </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>меньше 6%</run>
+            <run fontalignment='1' fontcolor='#000000' fontsize='10'>.</run>
+          </formatted-text>
+        </zone>
+        <zone h='7143' id='20' leg-item-layout='horz' name='Перевозки' pane-specification-id='1' param='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' show-title='false' type-v2='color' w='24500' x='12500' y='6286' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='95428' id='37' param='vert' type-v2='layout-flow' w='98400' x='800' y='2286'>
+                <zone fixed-size='280' h='95428' id='16' is-fixed='true' name='Перевозки' w='98400' x='800' y='2286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7143' id='20' leg-item-layout='horz' name='Перевозки' pane-specification-id='1' param='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' show-title='false' type-v2='color' w='24500' x='12500' y='6286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11143' id='11' type-v2='text' w='33400' x='65700' y='38286'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Перевозки</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'> также стабильны: разница </run>
+                    <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='10'>2022</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Æ </run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>и </run>
+                    <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontsize='10'>2023</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Æ </run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>по всем показателям </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>меньше 6%</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='10'>.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9ADD97DC-77B4-46C3-9EEF-8789140EB3C4}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='93'>
+    <window class='dashboard' name='Table 1'>
+      <viewpoints>
+        <viewpoint name='Average Weekly Growth'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Table 1 Text' />
+        <viewpoint name='Total Number of Contracts'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{68E5C401-267D-4018-BA3B-F358C0C62380}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Table 2'>
+      <viewpoints>
+        <viewpoint name='Production'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{BCDD7F56-66A1-4F19-B0C3-6776E5D7131D}' />
+    </window>
+    <window class='dashboard' name='Table 3'>
+      <viewpoints>
+        <viewpoint name='Shipment' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{959D9757-2E7D-41DC-8C7A-EB488144FCA7}' />
+    </window>
+    <window class='worksheet' name='_'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{381D9C37-8F34-46FF-8F82-A5E665E8E973}' />
+    </window>
+    <window class='dashboard' name='Таблица 1'>
+      <viewpoints>
+        <viewpoint name='Итоговое Число Контрактов'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Средний Недельный Рост'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Таблица 1 Текст' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{051DCBD1-F638-4B90-B303-C8336D09F5B9}' />
+    </window>
+    <window class='dashboard' name='Таблица 2'>
+      <viewpoints>
+        <viewpoint name='Производство'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{4A173902-1957-4B33-A539-BB05F6DABD86}' />
+    </window>
+    <window class='dashboard' name='Таблица 3'>
+      <viewpoints>
+        <viewpoint name='Перевозки' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{520CAABA-EB99-43DA-9B05-814551DBBB38}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Average Weekly Growth'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A2F031A6-65B1-4BD6-9EFE-5C5C772D4234}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Production'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1u9q16d0rndcal145umfj1x0befd].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0313D898-704C-4216-90C5-A127EF1819BC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Shipment'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A29E6EA8-33F8-4A64-9C31-079143BFA3A0}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Table 1 Text'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{652ABC74-B132-4D19-8AA4-0CCA7DEF6729}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Number of Contracts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_en:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A9B5117F-4AE5-44C7-BDEB-C40B0FAFB8E9}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Итоговое Число Контрактов'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1tg6i8g1fuqaun131gk011d8xqjd].[none:Speaker_ru:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{129EC902-FFC5-4146-852A-BEBEF74955CC}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Перевозки'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.08mayg10avhev119khlzq1nmbyyx].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{542EF1E5-CA55-499F-97C9-B06EDD5E56D2}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Производство'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.01hmu5t1kwo9dv1ds0fvn1njllsd].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{503E3870-AF3B-4F6B-969D-BB7B064E87FF}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Средний Недельный Рост'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8A8010C3-8530-495F-A871-0949F77C90F1}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Таблица 1 Текст'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1C959F52-80BF-49FC-BBEB-21B9CD9D5000}' />
+    </window>
+  </windows>
+</workbook>
